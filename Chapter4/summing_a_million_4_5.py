@@ -1,0 +1,5 @@
+one_million_numbers = list(range(1, 1_000_001))
+lowest = min(one_million_numbers)
+highest = max(one_million_numbers)
+sum_of_numbers = sum(one_million_numbers)
+print(f'Lowest: {lowest}\nHighest: {highest}\nSum: {sum_of_numbers}')
